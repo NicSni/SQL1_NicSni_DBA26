@@ -20,19 +20,19 @@ Post:
 
 Pre:  
 -[x] Read github repo page  
--[ ] Watch video  
--[ ] Prepare directories/files/assets  
+-[x] Watch video  
+-[x] Prepare directories/files/assets  
  
 Post:
--[ ] Refresh  
+-[x] Refresh  
  
 ## 2026-10-16 kl 14:00 - 17:00 (ZOOM) 
 * 06_CRUD
 * 07_aggregation
   
 Pre:  
--[ ] Read github repo page  
--[ ] Watch video  
+-[x] Read github repo page  
+-[x] Watch video  
 -[ ] Prepare directories/files/assets  
  
 Post:  

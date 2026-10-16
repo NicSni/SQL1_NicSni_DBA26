@@ -1,0 +1,36 @@
+-- number of orders where profit are higher than 190
+SELECT count(*) 
+FROM amazon
+WHERE profit > 190;
+
+-- all orderlines in order CA-2011-115812 
+SELECT *
+FROM amazon
+WHERE order_id = 'CA-2011-115812';
+
+-- ok so this email has shopped only once with 7 orderlines
+SELECT *
+FROM amazon
+WHERE emailid = 'BrosinaHoffman@gmail.com';
+
+-- sales stats 
+SELECT MIN(sales), MEDIAN(sales), ROUND(AVG(sales)), MAX(sales)
+FROM amazon;
+
+-- sales stats for phones
+SELECT 
+    MIN(sales), 
+    MEDIAN(sales), 
+    ROUND(AVG(sales)) AS mean, 
+    MAX(sales)
+FROM amazon
+WHERE category = 'Phones';
+
+
+-- IN
+SELECT
+    * 
+FROM 
+    amazon
+WHERE 
+    category IN ('Phones','Chairs');
