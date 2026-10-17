@@ -1,0 +1,5 @@
+SELECT *
+FROM employees
+FETCH FIRST 5 ROWS ONLY;
+
+EXIT
