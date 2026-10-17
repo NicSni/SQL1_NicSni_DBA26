@@ -1,0 +1,7 @@
+SELECT
+    MIN(BASEPAY),
+    MEDIAN(BASEPAY),
+    ROUND(AVG(BASEPAY)),
+    MAX(BASEPAY)
+FROM salaries_sf;
+EXIT
