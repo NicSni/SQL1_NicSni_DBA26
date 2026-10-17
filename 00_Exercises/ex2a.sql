@@ -1,0 +1,4 @@
+SELECT COUNT(*)
+FROM salaries_sf
+WHERE BASEPAY > 100000;
+EXIT
