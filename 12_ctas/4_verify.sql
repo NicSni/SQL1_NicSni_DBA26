@@ -9,7 +9,7 @@ SELECT
     o.order_date,
     c.customer_name,
     c.customer_city,
-    p.product,
+    p.product_name AS product,
     p.product_price,
     ol.qty
 FROM customers c

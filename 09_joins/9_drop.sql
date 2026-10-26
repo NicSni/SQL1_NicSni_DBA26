@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS departments,
+DROP TABLE IF EXISTS professors,
+DROP TABLE IF EXISTS students,
+DROP TABLE IF EXISTS courses,
+DROP TABLE IF EXISTS sections,
+DROP TABLE IF EXISTS enrollments;
+EXIT
